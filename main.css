@@ -54,13 +54,13 @@ body{
     text-decoration: none;
 }
 
-.carousel-item img{
-    height: 280px;
-}
-
 @media (max-width: 767px) {
     .carousel-item img{
         height: 280px;
+    }
+
+    #cabecalho .navbar-brand, .navbar-toggler{
+        margin-bottom: 10px;
     }
 }
 
